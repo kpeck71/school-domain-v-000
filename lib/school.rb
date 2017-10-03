@@ -19,7 +19,7 @@ class School
   end
 
   def sort(name)
-    roster.sort_by {|name| name}
+    roster.sort_by {|name| sort.name}
   end
 
 end
