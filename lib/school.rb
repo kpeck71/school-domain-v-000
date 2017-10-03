@@ -19,7 +19,7 @@ class School
   end
 
   def sort(name)
-    pry
+    binding.pry
     roster.sort_by {|name| sort.name}
     roster
   end
