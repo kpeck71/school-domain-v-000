@@ -12,7 +12,7 @@ class School
   #binding.pry
     roster.map do |name, grade|
       @roster ||= roster[grade]
-      roster[grade].push(name)
+      roster[grade] << name
     end
   end
 
