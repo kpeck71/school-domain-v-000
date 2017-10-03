@@ -11,8 +11,9 @@ class School
   def add_student(name, grade)
   #binding.pry
   #@roster ||=
-  unless @roster.include?(grade)
   roster[grade] = []
+  unless @roster.include?(grade)
+  
 #    roster.map do |name, grade|
       roster[grade] << name
   #  end
