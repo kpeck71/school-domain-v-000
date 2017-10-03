@@ -19,6 +19,7 @@ class School
   end
 
   def sort(name)
+    pry
     roster.sort_by {|name| sort.name}
     roster
   end
