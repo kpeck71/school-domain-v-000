@@ -17,9 +17,8 @@ class School
     roster[grade]
   end
 
-  binding.pry
   
-  def sort(roster)
+  def sort(name,grade)
     roster[grade].map do |name|
       name.sort!
     end
