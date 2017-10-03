@@ -9,7 +9,7 @@ class School
   end
 
   def add_student(name, grade)
-  binding.pry
+  #binding.pry
     roster.map do |name, grade|
 
 
