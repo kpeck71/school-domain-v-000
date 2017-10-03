@@ -15,8 +15,8 @@ class School
   end
 
   def grade(grade)
-      puts roster.keys
-    end
+    puts roster.keys
+
   end
 
 end
