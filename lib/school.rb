@@ -14,7 +14,7 @@ class School
 
 
       @roster ||= roster[grade]
-      roster["grade"].push("name")
+      roster[grade].push("name")
 
     end
   end
