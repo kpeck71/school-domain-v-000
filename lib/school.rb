@@ -21,8 +21,8 @@ class School
   #binding.pry
     roster[grade].map do |name|
       name.sort!
-      roster
     end
+    roster
   end
 
 end
