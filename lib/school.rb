@@ -16,7 +16,7 @@ class School
     roster
     else
     roster[grade] = []
-        roster.each do |name, grade|
+        roster.map do |name, grade|
           roster[grade] << name
           roster
         end
