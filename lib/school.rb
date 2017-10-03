@@ -9,7 +9,7 @@ class School
   end
 
   def add_student(name, grade)
-  #binding.pry
+  binding.pry
   #@roster ||= roster[grade]
     if @roster.include?(grade)
     roster[grade] << name
