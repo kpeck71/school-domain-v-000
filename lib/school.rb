@@ -17,6 +17,7 @@ class School
     roster[grade] = []
         roster.map do |name, grade|
           roster[grade] << name
+          roster
         end
     end
   end
