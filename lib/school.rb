@@ -13,6 +13,7 @@ class School
   #@roster ||= roster[grade]
     if @roster.include?(grade)
     roster[grade] << name
+    roster
     else
     roster[grade] = []
         roster.map do |name, grade|
