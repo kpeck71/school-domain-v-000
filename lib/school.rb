@@ -1,9 +1,7 @@
 class School
   attr_accessor :school, :roster
 
-  @@roster = {}
-
-  def initialize(school,roster)
+  def initialize(school)
     @school = school
     @roster = roster
   end
@@ -13,7 +11,7 @@ class School
   # end
 
   def add_student(grade,name)
-    
+
     unless @@roster include?(grade)
       roster[grade] << name
     end
