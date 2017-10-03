@@ -16,6 +16,7 @@ class School
 
   def grade(grade)
     roster.map do |name|
+      puts name
   end
 
 end
