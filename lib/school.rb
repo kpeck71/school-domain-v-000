@@ -1,20 +1,19 @@
 class School
-  attr_accessor :school, :roster
+  attr_reader :school, :roster
 
-  ROSTER = {[]}
+  #@roster = {}
 
   def initialize(school,roster)
     @school = school
-    #BRANDS.push(brand) unless BRANDS.include?(brand)
+    @roster = {}
   end
 
+  # def roster=(roster)
+  #   ROSTER << roster
+  # end
 
   def add_student(grade,name)
     roster[grade] << name
-    # self.condition = "new"
-    # puts "Your shoe is as good as new!"
   end
-
-end
 
 end
