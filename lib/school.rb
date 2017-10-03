@@ -10,7 +10,7 @@ class School
 
   def add_student(name, grade)
   #binding.pry
-  #@roster ||=
+  #@roster ||= roster[grade]
   roster[grade] = []
   #if @roster.include?(grade)
 #    roster.map do |name, grade|
