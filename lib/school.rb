@@ -10,6 +10,7 @@ class School
     roster.map do |name, grade|
       @roster ||= roster[grade]
       roster["grade"].push("name")
+      pry
     end
   end
 
