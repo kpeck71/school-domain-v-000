@@ -23,8 +23,6 @@ class School
       name.sort!
       roster
     end
-
-
   end
 
 end
