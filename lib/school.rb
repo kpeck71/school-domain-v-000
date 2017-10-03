@@ -3,17 +3,17 @@ class School
 
   #@roster = {}
 
-  def initialize(school,roster)
+  def initialize(school)
     @school = school
-    @roster = {}
+    #@roster = {}
   end
 
   # def roster=(roster)
   #   ROSTER << roster
   # end
 
-  def add_student(grade,name)
-    roster[grade] << name
-  end
+  #def add_student(grade,name)
+  #  roster[grade] << name
+  #end
 
 end
