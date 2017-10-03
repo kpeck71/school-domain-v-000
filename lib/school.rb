@@ -22,6 +22,7 @@ class School
     roster[grade].map do |name|
       name.sort
     end
+    roster
   end
 
 end
