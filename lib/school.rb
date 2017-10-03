@@ -14,7 +14,7 @@ class School
     roster[grade] << name
   end
 
-  def grade(roster)
+  def grade(grade)
     puts roster.keys
   end
 
