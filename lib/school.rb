@@ -8,7 +8,8 @@ class School
 
   def add_student(name, grade)
     @roster ||= {}
-    roster["grade"].push("name")
+    roster.each do |name, grade|
+      roster["grade"].push("name")
     #end
   end
 
