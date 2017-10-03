@@ -10,8 +10,8 @@ class School
   #   ROSTER << roster
   # end
 
-  def add_student(grade,name)
-  
+  def add_student(name, grade)
+
     unless @@roster include?(grade)
       roster[grade] << name
     end
