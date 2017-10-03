@@ -15,6 +15,6 @@ class School
   end
 
   def grade(grade)
-    
+    puts grade
 
 end
