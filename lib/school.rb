@@ -7,7 +7,7 @@ class School
   end
 
   def add_student(name, grade)
-    @roster ||= {}
+    @roster ||= roster[grade]
     roster.each do |name, grade|
       roster["grade"].push("name")
     end
