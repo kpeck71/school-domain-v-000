@@ -12,8 +12,7 @@ class School
   #binding.pry
   @roster ||= roster[grade]
   unless @roster.include?(grade)
-    roster[grade] = []
-  
+    #roster[grade] = []
 #    roster.map do |name, grade|
       roster[grade] << name
   #  end
