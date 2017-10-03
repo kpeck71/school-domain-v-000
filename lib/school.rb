@@ -7,7 +7,7 @@ class School
   end
 
   def add_student(name, grade)
-    @roster ||= grade
+    @roster ||= {}
     #roster["grade"].push("name")
     #end
   end
