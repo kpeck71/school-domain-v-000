@@ -1,3 +1,5 @@
+require 'pry'
+
 class School
   attr_accessor :school, :roster
 
@@ -10,7 +12,7 @@ class School
     roster.map do |name, grade|
       @roster ||= roster[grade]
       roster["grade"].push("name")
-      pry
+      binding.pry
     end
   end
 
