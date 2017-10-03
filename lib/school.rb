@@ -15,7 +15,7 @@ class School
   unless @roster.include?(grade)
 #    roster.map do |name, grade|
       roster[grade] << name
-  #  end
+    end
   end
 
 end
