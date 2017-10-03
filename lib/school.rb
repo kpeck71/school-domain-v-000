@@ -16,7 +16,7 @@ class School
   def grade(grade)
     binding.pry
     roster[grade]
-    
+
   end
 
 
