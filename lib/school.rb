@@ -10,7 +10,7 @@ class School
     @roster ||= {}
     roster.each do |name, grade|
       roster["grade"].push("name")
-    #end
+    end
   end
 
 end
